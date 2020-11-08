@@ -1,0 +1,36 @@
+.time {
+    display: inline;
+}
+
+.row {
+    padding: 10px;
+}
+
+.row > * {
+    margin: 3px;
+}
+
+.row > button {
+    background-color: #0063B2FF;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.disabled > * {
+    color: gray;
+}
+
+#navbar {
+    background-color: #9CC3D5;
+    padding: 5px;
+    margin: -8px;
+    margin-bottom: 10px;
+}
+
+#navbar > button {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
